@@ -22,7 +22,8 @@
 /* Normal Italic */
 @font-face {
   font-family: 'AudiType-Italic';
-  src: url('fonts/audi/AudiType-Italic_4.03.woff') format('woff');
+  src: url('fonts/audi/AudiType-Italic_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-Italic_4.03.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -41,7 +42,8 @@
 /* Bold Italic */
 @font-face {
   font-family: 'AudiType-BoldItalic';
-  src: url('fonts/audi/AudiType-BoldItalic_4.03.woff2') format('woff2');
+  src: url('fonts/audi/AudiType-BoldItalic_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-BoldItalic_4.03.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -50,7 +52,8 @@
 /* Extended Normal */
 @font-face {
   font-family: 'AudiType-ExtendedNormal';
-  src: url('fonts/audi/AudiType-ExtendedNormal_4.03.woff2') format('woff2');
+  src: url('fonts/audi/AudiType-ExtendedNormal_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-ExtendedNormal_4.03.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -59,7 +62,8 @@
 /* Extended Italic */
 @font-face {
   font-family: 'AudiType-ExtendedItalic';
-  src: url('fonts/audi/AudiType-ExtendedItalic_4.03.woff2') format('woff2');
+  src: url('fonts/audi/AudiType-ExtendedItalic_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-ExtendedItalic_4.03.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -68,7 +72,8 @@
 /* Extended Bold */
 @font-face {
   font-family: 'AudiType-ExtendedBold';
-  src: url('fonts/audi/AudiType-ExtendedBold_4.03.woff2') format('woff2');
+  src: url('fonts/audi/AudiType-ExtendedBold_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-ExtendedBold_4.03.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -77,7 +82,8 @@
 /* Extended Bold Italic */
 @font-face {
   font-family: 'AudiType-ExtendedBoldItalic';
-  src: url('fonts/audi/AudiType-ExtendedBoldItalic_4.03.woff2') format('woff2');
+  src: url('fonts/audi/AudiType-ExtendedBoldItalic_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-ExtendedBoldItalic_4.03.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -96,8 +102,19 @@
 /* Wide Normal */
 @font-face {
   font-family: 'AudiType-WideNormal';
-  src: url('fonts/audi/AudiType-WideNormal_4.03.woff2') format('woff2');
+  src: url('fonts/audi/AudiType-WideNormal_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-WideNormal_4.03.woff') format('woff');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Wide Bold */
+@font-face {
+  font-family: 'AudiType-WideBold';
+  src: url('fonts/audi/AudiType-WideBold_4.03.woff2') format('woff2'),
+       url('fonts/audi/AudiType-WideBold_4.03.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
